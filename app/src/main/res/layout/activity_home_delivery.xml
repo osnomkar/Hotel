@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.akashbagade.hotel.HomeDelivery">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:textColor="#003300"
+        android:background="#d7ccc8"
+        android:text="Home Delivery"
+        android:textSize="25sp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/hdName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:hint="@string/full_name"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:ems="10"
+        android:hint="@string/address"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:ems="10"
+        android:hint="@string/mobile_no"
+        android:maxLength="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/hdFood"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:hint="@string/food"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:ems="10"
+        android:hint="@string/time"
+        android:maxLength="5"
+        android:inputType="time" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:ems="10"
+        android:hint="@string/date"
+        android:maxLength="10"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/hdSubmit"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.1"
+        android:text="@string/submit"
+        android:textColor="#003300"
+        android:textSize="25sp" />
+</LinearLayout>
