@@ -22,10 +22,7 @@
         <activity android:name=".FoodParcel" />
         <activity android:name=".HomeDelivery" />
         <activity android:name=".Banquet" />
-        <meta-data>
-            android:name="meta-data"
-            tools:replace="android:value"
-        </meta-data>
+
     </application>
 
 </manifest>
