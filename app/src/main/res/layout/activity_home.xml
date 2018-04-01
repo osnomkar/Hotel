@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#b2ebf2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.akashbagade.hotel.home"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:weightSum="1"
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+            android:layout_width="0sp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgBookTable"
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+                android:layout_weight="0.8"
+                android:src="@drawable/table_booking" />
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/btnBookTable"
+                android:layout_width="150sp"
+                android:layout_height="0sp"
+                android:layout_weight="0.2"
+                android:background="#d7ccc8"
+                android:text="Book table"
+                android:onClick="bTable"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="1"
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+            android:layout_width="0sp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgHomeDelivery"
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+                android:layout_weight="0.8"
+                android:src="@drawable/home_delivery" />
+
+            <Button
+                android:id="@+id/btnHomeDelivery"
+                android:layout_gravity="center"
+                android:layout_width="150sp"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:background="#d7ccc8"
+                android:drawablePadding="2sp"
+                android:text="Order Food"
+                android:onClick="oFood"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:weightSum="1"
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+            android:layout_width="0sp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgFoodParcel"
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+                android:layout_weight="0.8"
+                app:srcCompat="@drawable/foodparcel" />
+
+            <Button
+                android:id="@+id/btnFoodParcel"
+                android:layout_gravity="center"
+                android:layout_width="150sp"
+                android:layout_height="0sp"
+                android:layout_weight="0.2"
+                android:text="Make Parcel"
+                android:background="#d7ccc8"
+                android:onClick="mParcel"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="1"
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+            android:layout_width="0sp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgConference"
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+                android:layout_weight="0.8"
+                app:srcCompat="@drawable/conference" />
+            <Button
+                android:id="@+id/btnConference"
+                android:layout_gravity="center"
+                android:layout_width="150sp"
+                android:layout_height="0sp"
+                android:text="Book Banquet"
+                android:layout_weight="0.2"
+                android:background="#d7ccc8"
+                android:onClick="bBanquet"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
