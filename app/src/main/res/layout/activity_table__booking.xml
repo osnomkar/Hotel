@@ -28,6 +28,7 @@
         android:textSize="20sp"/>
 
     <EditText
+        android:id="@+id/tbEmail"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.1"
@@ -36,6 +37,7 @@
         android:inputType="textEmailAddress" />
 
     <EditText
+        android:id="@+id/tbPhone"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.1"
@@ -45,6 +47,7 @@
         android:inputType="phone" />
 
     <EditText
+        android:id="@+id/tbGuests"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.1"
@@ -53,6 +56,7 @@
         android:inputType="number" />
 
     <EditText
+        android:id="@+id/tbTime"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.1"
@@ -62,6 +66,7 @@
         android:inputType="time" />
 
     <EditText
+        android:id="@+id/tbDate"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.1"
@@ -78,5 +83,6 @@
         android:layout_weight="0.1"
         android:text="@string/submit"
         android:textColor="#003300"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        android:onClick="onSubmit"/>
 </LinearLayout>

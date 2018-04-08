@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "645624236574",
+    "firebase_url": "https://hotel-c9562.firebaseio.com",
+    "project_id": "hotel-c9562",
+    "storage_bucket": "hotel-c9562.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645624236574:android:d53ad264217d0d8c",
+        "android_client_info": {
+          "package_name": "com.example.akashbagade.hotel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645624236574-aimd2n4l9klfsrjjd0d5ti57vbadp1vb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt6ZbN7R6ILGVq03zOm12IsyR9pqOSzlU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

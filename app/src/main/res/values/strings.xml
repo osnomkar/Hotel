@@ -103,4 +103,6 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="Thanx2">Thanks for using Booking service of Hotel. Below details are registered.We will send you OTP on your registered mobile number. Verification of your mobile number will considered as conformation of service.</string>
+    <string name="verify">Verify</string>
 </resources>

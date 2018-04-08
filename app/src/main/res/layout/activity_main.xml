@@ -20,7 +20,8 @@
         android:gravity="center"
         android:text="DRIVE INN"
         android:textAlignment="center"
-        android:textSize="40sp" />
+        android:textSize="40sp"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:layout_width="match_parent"
@@ -29,7 +30,8 @@
         android:gravity="center"
         android:text="CARNIVAL"
         android:textAlignment="center"
-        android:textSize="70sp" />
+        android:textSize="70sp"
+        tools:ignore="HardcodedText" />
 
     <ImageView
         android:layout_weight="0.6"
