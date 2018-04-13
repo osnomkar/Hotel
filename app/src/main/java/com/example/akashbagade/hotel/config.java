@@ -15,5 +15,5 @@ public class config {
     public static final String KEY_OTP = "otp";
 
     //JSON Tag from response from server
-    public static final String TAG_RESPONSE= "http://lqimmh0k-site.itempurl.com/hotel/errror.json";
+    public static final String TAG_RESPONSE= "http://lqimmh0k-site.itempurl.com/hotel/";
 }

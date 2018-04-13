@@ -194,33 +194,27 @@ public class Table_Booking2 extends AppCompatActivity implements View.OnClickLis
 
         //Again creating the string request
         StringRequest stringRequest = new StringRequest(Request.Method.POST, config.REGISTER_URL,
-                new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-                        loading.dismiss();
-                        try {
-                            //Creating the json object from the response
-                            JSONObject jsonResponse = new JSONObject(response);
+                response -> {
+                    loading.dismiss();
+                    try {
+                        //Creating the json object from the response
+                        JSONObject jsonResponse = new JSONObject(response);
 
-                            //If it is success
-                            if(jsonResponse.getString(config.TAG_RESPONSE).equalsIgnoreCase("Success")){
-                                //Asking user to confirm otp
-                                confirmOtp();
-                            }else{
-                                //If not successful user may already have registered
-                                Toast.makeText(Table_Booking2.this, "Username or Phone number already registered", Toast.LENGTH_LONG).show();
-                            }
-                        } catch (JSONException e) {
-                            e.printStackTrace();
+                        //If it is success
+                        if(jsonResponse.getString(config.TAG_RESPONSE).equalsIgnoreCase("Success")){
+                            //Asking user to confirm otp
+                            confirmOtp();
+                        }else{
+                            //If not successful user may already have registered
+                            Toast.makeText(Table_Booking2.this, "Username or Phone number already registered", Toast.LENGTH_LONG).show();
                         }
+                    } catch (JSONException e) {
+                        e.printStackTrace();
                     }
                 },
-                new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        loading.dismiss();
-                        Toast.makeText(Table_Booking2.this, error.getMessage(),Toast.LENGTH_LONG).show();
-                    }
+                error -> {
+                    loading.dismiss();
+                    Toast.makeText(Table_Booking2.this, error.getMessage(),Toast.LENGTH_LONG).show();
                 }) {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
