@@ -105,4 +105,12 @@
     <string name="action_settings">Settings</string>
     <string name="Thanx2">Thanks for using Booking service of Hotel. Below details are registered.We will send you OTP on your registered mobile number. Verification of your mobile number will considered as confirmation of service.</string>
     <string name="verify">Verify</string>
+    <string name="MobVrfd">Your Mobile has been verified.</string>
+    <string name="MobRegTY"><![CDATA[Your Booking is confirmed.Your details are verified & Registered.]]></string>
+    <string name="back_home">back home</string>
+    <string name="Pay">pay</string>
+    <string name="ordConf">Your Order is Confirm!!</string>
+    <string name="paysuccess">Payment Recieved Successfully.</string>
+    <string name="pay300">Your advance booking amount is Rs.300</string>
+    <string name="food">Food</string>
 </resources>

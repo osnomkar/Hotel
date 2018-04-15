@@ -22,11 +22,22 @@
         android:text="@string/MobRegTY"
         android:textColor="#000000"/>
 
-    <Button
+    <TextView
         android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:text="@string/pay300"
+        android:gravity="center"
+        android:textColor="#000000"/>
+
+    <Button
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/hdpay"
+        android:layout_width="300sp"
         android:layout_height="60sp"
-        android:text="@string/back_home"
-        android:background="#90A4AE"
-        android:onClick="ontbBack"/>
+        android:text="@string/Pay"
+        android:background="#90A4AE"/>
+
+
 
 </LinearLayout>

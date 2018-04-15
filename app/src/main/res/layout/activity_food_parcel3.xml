@@ -27,6 +27,6 @@
         android:layout_height="60sp"
         android:text="@string/back_home"
         android:background="#90A4AE"
-        android:onClick="ontbBack"/>
+        android:onClick="onfpBack"/>
 
 </LinearLayout>

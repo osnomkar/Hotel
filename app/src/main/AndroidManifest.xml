@@ -27,7 +27,12 @@
         <activity android:name=".Table_Booking3" />
         <activity android:name=".HomeDelivery2" />
         <activity android:name=".FoodParcel2" />
-        <activity android:name=".Banquet2"></activity>
+        <activity android:name=".Banquet2" />
+        <activity android:name=".Banquet3" />
+        <activity android:name=".FoodParcel3" />
+        <activity android:name=".HomeDelivery3" />
+        <activity android:name=".Banquet4" />
+        <activity android:name=".HomeDelivery4"></activity>
     </application>
 
 </manifest>

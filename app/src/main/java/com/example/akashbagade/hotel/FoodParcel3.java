@@ -5,17 +5,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class Table_Booking3 extends AppCompatActivity {
+public class FoodParcel3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_table__booking3);
+        setContentView(R.layout.activity_food_parcel3);
     }
 
-    public void ontbBack(View view) {
-        Intent intent = new Intent(this,Table_Booking.class);
+    public void onfpBack(View view) {
+        Intent intent = new Intent(this,FoodParcel.class);
         startActivity(intent);
     }
-
 }
