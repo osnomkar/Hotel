@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -17,25 +18,25 @@
         android:textColor="@color/colorPrimary"/>
 
     <TextView
-        android:id="@+id/tbName2"
+        android:id="@+id/bbName2"
         android:layout_width="match_parent"
         android:layout_height="0sp"
         android:layout_weight="0.1"
         android:gravity="center"/>
     <TextView
-        android:id="@+id/tbEmail2"
+        android:id="@+id/bbEmail2"
         android:layout_width="match_parent"
         android:layout_height="0sp"
         android:layout_weight="0.1"
         android:gravity="center"/>
     <TextView
-        android:id="@+id/tbPhone2"
+        android:id="@+id/bbPhone2"
         android:layout_width="match_parent"
         android:layout_height="0sp"
         android:layout_weight="0.1"
         android:gravity="center"/>
     <Button
-        android:id="@+id/tbVerify"
+        android:id="@+id/bbVerify"
         android:layout_width="match_parent"
         android:layout_height="0sp"
         android:layout_weight="0.2"

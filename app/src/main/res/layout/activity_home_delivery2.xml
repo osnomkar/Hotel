@@ -17,25 +17,25 @@
         android:textColor="@color/colorPrimary"/>
 
     <TextView
-        android:id="@+id/tbName2"
+        android:id="@+id/hdName2"
         android:layout_width="match_parent"
         android:layout_height="0sp"
         android:layout_weight="0.1"
         android:gravity="center"/>
     <TextView
-        android:id="@+id/tbEmail2"
+        android:id="@+id/hdEmail2"
         android:layout_width="match_parent"
         android:layout_height="0sp"
         android:layout_weight="0.1"
         android:gravity="center"/>
     <TextView
-        android:id="@+id/tbPhone2"
+        android:id="@+id/hdPhone2"
         android:layout_width="match_parent"
         android:layout_height="0sp"
         android:layout_weight="0.1"
         android:gravity="center"/>
     <Button
-        android:id="@+id/tbVerify"
+        android:id="@+id/hdVerify"
         android:layout_width="match_parent"
         android:layout_height="0sp"
         android:layout_weight="0.2"
